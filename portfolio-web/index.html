@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opeoluwa Adekunle - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo" style="margin-right: auto">
+          <a href="#home"
+            ><img src="./assets/images/me-logo.png" alt="logo-pic"
+          /></a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="navbar-links">
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#education">Education</a></li> -->
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#languages">Programming Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="heading" id="home">
+      <h1>
+        Hi, I'm <br />
+        Opeoluwa Adekunle
+      </h1>
+      <h2>Frontend developer | 3d Artist | Game developer</h2>
+    </section>
+    <div class="container">
+      <!-- About section -->
+      <section class="about" id="about">
+        <h2>About me</h2>
+        <div class="about-details">
+          <div class="about-text">
+            <p>
+              I am a 3D artist and game developer expanding into frontend development. 
+              I am passionate about creating immersive and engaging digital
+              experiences. I’m always seeking opportunities to contribute to
+              innovative projects.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Educational background -->
+      <!-- Interests -->
+      <section class="interests" id="interests">
+        <h2>Interests</h2>
+        <ul>
+          <li>Software Development</li>
+          <li>Game Development</li>
+          <li>CGI</li>
+          <li>Architectural Visualization</li>
+          <li>Animation</li>
+          <li>VR & AR</li>
+        </ul>
+        <p>
+          I enjoy exploring the intersection of these fields to create unique
+          experiences.
+        </p>
+      </section>
+      <!-- Programming languages -->
+      <section class="languages" id="languages">
+        <h2>Programming Languages</h2>
+        <ul>
+          <li><img src="./assets/images/js.png" alt="javascript logo" /></li>
+          <li>
+            <img src="./assets/images/c-sharp_6132221.png" alt="c-sharp logo" />
+          </li>
+          <li><img src="./assets/images/css-3_732190.png" alt="css logo" /></li>
+          <li>
+            <img src="./assets/images/html_1051277.png" alt="html logo" />
+          </li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-list">
+          <div class="project-item">
+            <h3>Movie-whiz</h3>
+            <p>
+              A web app that allows users to search for movies and view details
+              such as posters, duration, actors, plot and release dates using
+              the OMDb API.
+            </p>
+            <a href="https://movie-whiz.vercel.app/" target="_blank"
+              >Search movie
+            </a>
+          </div>
+          <div class="project-item">
+            <h3>Super City Driver</h3>
+            <p>
+              A driving simulation game where player navigates through a city
+              environment, to different destinations while adhering to
+              real-world traffic laws. The main objective is to reach each
+              delivery destination as quickly as possible, without breaking
+              traffic rules, which could result in penalties or level restarts.
+            </p>
+            <a
+              href="https://ademicope.itch.io/super-city-driver"
+              target="_blank"
+              >Download and play now</a
+            >
+          </div>
+          <div class="project-item">
+            <h3>Models</h3>
+            <p>
+              3D models created for various projects, showcasing my skills in 3D
+              modelling and texturing. These models are used in games,
+              architectural visuadivzations, and other digital media.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/188181259/Blending"
+              target="_blank"
+              >View on Behance</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Contact form -->
+      <section class="contact" id="contact">
+        <h2>Contact me</h2>
+        <p>
+          Email:
+          <a href="mailto:michaeladekunle00@gmail.com"
+            >michaeladekunle00@gmail.com</a
+          >
+        </p>
+        <p>Phone: +2349060002679</p>
+      </section>
+    </div>
+    <footer>
+      <p>Copyright @ademicope 2025</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
